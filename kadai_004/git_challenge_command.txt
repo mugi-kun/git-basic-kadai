@@ -1,0 +1,12 @@
+iroshiburyou-no-iMac:git_challenge okappaaaman$ git add hello_world.txt
+hiroshiburyou-no-iMac:git_challenge okappaaaman$ git commit -m "hello_world.txtを追加"
+[main (root-commit) d148c68] hello_world.txtを追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+hiroshiburyou-no-iMac:git_challenge okappaaaman$ git add hello_world.txt
+hiroshiburyou-no-iMac:git_challenge okappaaaman$ git commit -m "日本語を追記"
+[main bd9b863] 日本語を追記
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+ hiroshiburyou-no-iMac:git_challenge okappaaaman$ git log --oneline
+bd9b863 (HEAD -> main) 日本語を追記
+d148c68 hello_world.txtを追加
